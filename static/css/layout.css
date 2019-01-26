@@ -39,6 +39,11 @@ p, address {
     margin-bottom: 20px;
 }
 
+.project {
+    width: 200px;
+    height: auto;
+}
+
 header > h1 {
     color: #9fa7cd;
 }
