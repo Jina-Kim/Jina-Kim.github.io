@@ -44,10 +44,6 @@ p, address {
     height: auto;
 }
 
-td{
-  vertical-align: center;
-}
-
 header > h1 {
     color: #9fa7cd;
 }
