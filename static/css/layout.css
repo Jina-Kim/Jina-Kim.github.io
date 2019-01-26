@@ -43,6 +43,10 @@ header > h1 {
     color: #F58282;
 }
 
+section > h1 {
+    color: #9fcdb6;
+}
+
 header > h1 {
     line-height: 100%;
     font-size: 250%;
