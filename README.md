@@ -1,5 +1,1 @@
-
-# Jina Kim's Blog
-## Copyright & License
-
-Copyright (C) 2015 - Released under the MIT License.
+This was forked from the [Vitae](https://github.com/jekyller/vitae) Jekyll Theme, released under the MIT License. See LICENSE.
