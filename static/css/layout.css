@@ -15,6 +15,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #6874b1;
     /*background-color: rgba(39, 168, 34, 0.06);*/
 }
 
@@ -49,7 +50,7 @@ p, address {
 .project:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
+  transform: scale(1.5);
 }
 
 header > h1 {
