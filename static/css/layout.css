@@ -40,14 +40,15 @@ p, address {
     margin-bottom: 20px;
 }
 
-.project {
+.project_image {
+    float: left;
     width: 220px;
     height: auto;
     padding-top: 15px;
     padding-right: 15px;
 }
 
-.project:hover {
+.project_image:hover {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
