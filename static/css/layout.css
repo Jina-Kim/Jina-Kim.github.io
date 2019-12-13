@@ -1,13 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:700,400);
-
 body {
     font-family: "Lato", "Open Sans", sans-serif;
     /* font-family: "Raleway", Helvetica, Arial, sans-serif; */
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    /* border-top: 5px solid #ffffff;
-    border-bottom: 5px solid #ffffff; */
+    border-top: 5px solid #0F4C81;
+    border-bottom: 5px solid #0F4C81;
 }
 
 .container {
