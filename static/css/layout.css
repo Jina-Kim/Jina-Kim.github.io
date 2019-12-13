@@ -5,8 +5,8 @@ body {
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 5px solid #F58282;
-    border-bottom: 5px solid #F58282;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
 }
 
 .container {
@@ -55,7 +55,7 @@ p, address {
 }
 
 header > h1 {
-    color: #6874b1;
+    color: rgb(100, 100, 100);
 }
 
 header > h1 {
@@ -80,7 +80,7 @@ section > h1 {
     font-size: 140%;
     line-height: 120%;
     text-transform: uppercase;
-    color: #F58282;
+    color: #0F4C81;
 }
 
 article {
