@@ -4,8 +4,8 @@ body {
     font-size: 15px;
     line-height: 21px;
     color: rgb(48, 48, 48);
-    border-top: 5px solid #0F4C81;
-    border-bottom: 5px solid #0F4C81;
+    /* border-top: 5px solid #0F4C81;
+    border-bottom: 5px solid #0F4C81; */
 }
 
 .container {
@@ -13,9 +13,11 @@ body {
 }
 
 a {
-    color: #333;
     text-decoration: none;
-    /*background-color: rgba(39, 168, 34, 0.06);*/
+}
+
+a:link {
+  color: #0F4C81;
 }
 
 a:visited {
