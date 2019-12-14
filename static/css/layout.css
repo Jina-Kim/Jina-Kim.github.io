@@ -29,6 +29,10 @@ a:hover, a:focus {
     color: #F58282;
 }
 
+span {
+    color: #000000;
+}
+
 p, address {
     margin-bottom: 0;
 }
