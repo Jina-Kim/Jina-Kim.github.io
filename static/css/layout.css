@@ -88,6 +88,14 @@ section > h1 {
     font-weight: 900;
 }
 
+section > h2 {
+    font-size: 120%;
+    line-height: 100%;
+    /* text-transform: uppercase; */
+    color: #0F4C81;
+    font-weight: 900;
+}
+
 article {
     margin-bottom: 20px;
 }
