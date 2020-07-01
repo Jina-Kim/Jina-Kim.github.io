@@ -23,12 +23,12 @@ body {
      width: 90%;
      border: none;
      border-bottom: 3px solid black;
-     font-family: monospace;
+     /* font-family: monospace; */
      font-size: 17px;
    }
    .userText {
      color: white;
-     font-family: monospace;
+     /* font-family: monospace; */
      font-size: 17px;
      text-align: right;
      line-height: 30px;
@@ -40,13 +40,13 @@ body {
    }
    .botText {
      color: white;
-     font-family: monospace;
+     /* font-family: monospace; */
      font-size: 17px;
      text-align: left;
      line-height: 30px;
    }
    .botText span {
-     background-color: #4169e1;
+     background-color: #7e69ba;
      padding: 10px;
      border-radius: 2px;
    }
