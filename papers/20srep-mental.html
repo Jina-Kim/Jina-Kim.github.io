@@ -1,59 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.name }}'s Résumé">
-    <meta name="author" content="{{ site.name }} @{{ site.twitter }}">
+---
+layout: layout
+permalink: /papers/
+---
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ site.baseurl }}static/css/base.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}static/css/skeleton.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}static/css/layout.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="shortcut icon" href="{{ site.baseurl }}static/img/favicon.ico">
-    <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
-    <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
-    <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
-</head>
-<body>
-<div class="container">
-    <header class="three columns">
-        <img src="{{ site.baseurl }}static/img/profile.jpg" class="me">
-        <h1>{{ site.name }}</h1>
-
+<section class="thirteen columns">
+    <h1>About</h1>
+    <article>
         <p>
-          M.Sc. Student @ <a href="http://is.skku.edu/">Interaction Science</a><br/>
+          I am a M. Sc. student in <a href="http://dsl.skku.edu">Data eXperience Lab</a> at Sungkyunkwan University, advised by <a href="http://eunilpark.com">Eunil Park</a>. </br>
+          My research area is Artificial Intelligence and Natural Language Processing (NLP) in user eXperience.
+           <!-- I have focused on finding valuable cues in online service or social media and using NLP tequniques to solve real-world problems. -->
+         </br>
+          My interest lies in solving real-world problems by finding valuable cues in online services or social media with the support of NLP techniques.
+          <!-- figuring out how to build users’ trust on AI by its feedback. -->
+          <!-- I am currently dispatched to Carnegie Mellon University - Artifical Intelligence program fully funded by IITP of Korea until the beginning of July 2020. -->
         </p>
-
-        <p>
-            <a href="{{ site.email_full }}"><i class="fa fa-envelope"></i> <span> {{ site.email }} </span></a><br/>
-            <a href="{{ site.google_scholar }}"><i class="fa fa-graduation-cap"></i> <span> Google Scholar </span></a><br/>
-            <a href="{{ site.github }}"><i class="fa fa-github" aria-hidden="true"></i> <span> Github </span></a>
-            <!--<a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>-->
-        </p>
-
-        <p>
-          <a href="https://drive.google.com/open?id=1JfQXtRegyqwXPrufVbjaKHcjvO033bx8"><u>Curriculum Vitae</u></a>
-        </p>
-
-    </header>
-    <div class="thirteen columns clearfix">
-
-        {{ content }}
-
-    <footer class="thirteen columns">
-        <p>© 2019 Jina Kim. Powered by Jekyll & vitae.</p>
-    </footer>
-    </div>
-</div>
-
-</body>
-</html>
+    </article>
+</section>
