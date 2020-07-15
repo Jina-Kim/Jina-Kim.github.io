@@ -146,6 +146,12 @@ em {
     /*margin-right: 6px;*/
 }
 
+.paper_title{
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+}
+
 @media print {
     @page {
         margin: 15mm;
