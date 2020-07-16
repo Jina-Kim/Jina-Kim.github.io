@@ -146,6 +146,10 @@ em {
     /*margin-right: 6px;*/
 }
 
+i {
+  font-style: italic;
+}
+
 .paper_title{
     font-size: 230%;
     font-weight: bold;
@@ -169,6 +173,24 @@ em {
 .author{
   width: 180px;
   display: inline-block;
+}
+
+.authors{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.affiliations{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section > div > h1 {
+    font-size: 140%;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #0F4C81;
+    font-weight: 900;
 }
 
 @media print {
