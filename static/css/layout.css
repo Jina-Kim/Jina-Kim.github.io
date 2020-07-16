@@ -47,9 +47,10 @@ p, address {
 }
 
 .author_img {
+    display: inline-block;
     width: 100px;
     height: 100px;
-    object-fit: cover;
+    overflow: hidden;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
