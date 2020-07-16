@@ -33,7 +33,7 @@ layout: projects
                   <img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=4rkPSC8AAAAJ&citpid=1" class="author_img">
                   <div>Jinyoung Han</div>
         </a>
-        <div>Dept. of Applied AI</div>
+        <div>Dept. of Applied AI</div><br>
       </div>
     </div>
     <div class="affiliations">
@@ -64,7 +64,12 @@ layout: projects
             Along with user IDs, we also collected titles and posts using the <i>PushshiftAPI</i>.
             <br>
             <em>Data anonymization: </em> All the user information is anonymized, hence no personally identifiable information was not identified; we followed all the anonymization process guided by the Sungkyunkwan University Institutional Review Board (IRB).
-          </p>
+          </p><br>
+
+          <div style="text-align:center;">
+            <img src="{{ site.website_full }}static/img/reddit_cnn.jpg" style="width:400px;"><br>
+            <div>Architecture of the proposed CNN-based classification model.</div>
+          </div>
 
           <p>
             <em>Classification models: </em> We developed six binary classification models, each of which categorizes a user' specific post into one of the following subreddits: r/depression, r/Anxiety, r/bipolar, r/BPD, r/schizophrenia, and r/autism.
@@ -74,10 +79,7 @@ layout: projects
             Therefore, we developed six independent binary classification models for each symptom to improve the performance. By developing six independent models for each mental disorder, each of which uses data where users suffer from only one particular mental problem, we were able to accurately identify a user's potential mental state.
           </p>
 
-          <div style="text-align:center;">
-            <img src="{{ site.website_full }}static/img/reddit_cnn.jpg" style="width:400px;"><br>
-            <div>Architecture of the proposed CNN-based classification model.</div>
-          </div>
+
 
       </article>
     </div>
@@ -87,7 +89,7 @@ layout: projects
           <h1>Dataset</h1>
             <ul>
               <li><a href="/">Mental-health-related Reddit (.csv format; K)</a></li>
-              <li>-- Data schema is written in the first row of data.</li>
+              <li>- Data schema is written in the first row of data.</li>
             </ul>
       </div>
       <div class="six columns">

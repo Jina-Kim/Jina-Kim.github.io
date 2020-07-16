@@ -186,7 +186,7 @@ i {
   margin-bottom: 30px;
 }
 
-section > div > h1 {
+section > div > h1, section > div > div > h1 {
     font-size: 140%;
     line-height: 120%;
     text-transform: uppercase;
