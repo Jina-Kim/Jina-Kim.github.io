@@ -78,11 +78,10 @@ layout: projects
           <p>
             <em>Classification models: </em> We developed six binary classification models, each of which categorizes a user' specific post into one of the following subreddits: r/depression, r/Anxiety, r/bipolar, r/BPD, r/schizophrenia, and r/autism.
             Our conjecture is that a user who suffers from a specific mental problem writes a post on the corresponding subreddit that deals with the problem.
-            A user can write posts across multiple subreddits if he/she suffers from multiple mental health problems, e.g., a user suffering from both depression and anxiety.
-            However, if the model is trained with the posts of users who have multiple symptoms like a prior study, the classification model may suffer from noisy data.
-            Therefore, we developed six independent binary classification models for each symptom to improve the performance. By developing six independent models for each mental disorder, each of which uses data where users suffer from only one particular mental problem, we were able to accurately identify a user's potential mental state.
+            Therefore, we developed six independent binary classification models for each symptom to improve the performance.
+            By developing six independent models for each mental disorder, each of which uses data where users suffer from only one particular mental problem, we were able to accurately identify a user's potential mental state.
             <br><br>
-            We divided our dataset into training (80%) and testing (20%) sets. We used two well-known classifiers, XGBoost and Convolutional Neural Network (CNN). 
+            We divided our dataset into training (80%) and testing (20%) sets. We used two well-known classifiers, XGBoost and Convolutional Neural Network (CNN).
             Note that we excluded the posts of users who wrote posts across multiple subreddits in learning phase.
           </p>
 
