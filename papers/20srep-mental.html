@@ -81,6 +81,9 @@ layout: projects
             A user can write posts across multiple subreddits if he/she suffers from multiple mental health problems, e.g., a user suffering from both depression and anxiety.
             However, if the model is trained with the posts of users who have multiple symptoms like a prior study, the classification model may suffer from noisy data.
             Therefore, we developed six independent binary classification models for each symptom to improve the performance. By developing six independent models for each mental disorder, each of which uses data where users suffer from only one particular mental problem, we were able to accurately identify a user's potential mental state.
+            <br><br>
+            We divided our dataset into training (80%) and testing (20%) sets. We used two well-known classifiers, XGBoost and Convolutional Neural Network (CNN). 
+            Note that we excluded the posts of users who wrote posts across multiple subreddits in learning phase.
           </p>
 
 
