@@ -178,11 +178,12 @@ i {
 .authors{
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .affiliations{
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 section > div > h1 {
