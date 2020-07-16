@@ -37,7 +37,7 @@ p, address {
     margin-bottom: 0;
 }
 
-.me {
+.me, .author_img {
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -147,9 +147,28 @@ em {
 }
 
 .paper_title{
-    font-size: 200%;
+    font-size: 230%;
     font-weight: bold;
     text-align: center;
+    text-transform: none;
+}
+
+.bibtex{
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.author{
+  width: 180px;
+  display: inline-block;
 }
 
 @media print {
