@@ -129,7 +129,7 @@ article > header > span + span::before {
 }
 
 article > header > span {
-    color: #808080;
+    color: rgb(100,100,100);
     font-size: 100%;
 }
 
