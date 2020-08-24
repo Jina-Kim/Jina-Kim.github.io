@@ -1,3 +1,12 @@
+::-moz-selection {
+   background: #0F4C81;
+   color: #fff;
+}
+::selection {
+   background: #0F4C81;
+   color: #fff;
+}
+
 body {
     font-family: "Lato", "Open Sans", sans-serif;
     /* font-family: "Raleway", Helvetica, Arial, sans-serif; */
