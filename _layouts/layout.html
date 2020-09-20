@@ -30,7 +30,17 @@
             <a href="{{ site.email_full }}"><i class="fa fa-envelope"></i> <span> {{ site.email }} </span></a><br/>
             <a href="{{ site.google_scholar }}">Google Scholar</a> | <a href="{{ site.github }}"> GitHub </a>
         </p>
-
+        <hr>
+        <nav class="menubar">
+          {% assign current = page.url | downcase | split: '/' %}
+            <h1>{{ current }}</h1>
+            <h1>{{  page.url  }}</h1>
+          <ul>
+            <li><a href='/' {% if current[1] == 'about' %}class='current'{% endif %}>Home</a></li>
+            <li><a href='/publications' {% if current[1] == 'publications' %}class='current'{% endif %}>Publications</a></li>
+          </ul>
+        </nav>
+        <hr>
     </header>
     <div class="thirteen columns clearfix">
 
