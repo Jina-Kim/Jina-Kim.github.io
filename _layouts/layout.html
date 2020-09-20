@@ -34,7 +34,7 @@
         <nav class="menubar">
           {% assign current = page.url | downcase | split: '/' %}
           <ul>
-            <li><a href='/' {% if current[1] == blank %}class='current'{% endif %}>Home</a></li>
+            <li><a href='/' {% if current[1] == null %}class='current'{% endif %}>Home</a></li>
             <li><a href='/publications' {% if current[1] == 'publications' %}class='current'{% endif %}>Publications</a></li>
           </ul>
         </nav>
