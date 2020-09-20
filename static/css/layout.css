@@ -52,7 +52,10 @@ p, address {
     border-radius: 70px;
     -webkit-border-radius: 70px;
     -moz-border-radius: 70px;
+    display: block;
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .author_img {

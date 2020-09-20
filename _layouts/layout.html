@@ -24,13 +24,18 @@
 <div class="container">
     <header class="three columns">
         <img src="{{ site.website_full }}static/img/profile.jpg" class="me">
-        <h1>{{ site.name }}</h1>
+        <h1 style="text-align:center;">{{ site.name }}</h1>
 
-        <p>
-            <a href="{{ site.email_full }}"><i class="fa fa-envelope"></i> <span> {{ site.email }} </span></a><br/>
-            <a href="{{ site.google_scholar }}">Google Scholar</a> | <a href="{{ site.github }}"> GitHub </a>
+        <p style="font-size:23px;text-align:center;">
+            <a href="{{ site.email_full }}"><i class="fa fa-envelope"></i></a>
+            &nbsp;&nbsp;&nbsp;
+             <a href="{{ site.google_scholar }}"><i class="fa fa-graduation-cap"></i></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="{{ site.github }}"><i class="fa fa-github"></i></a>
         </p>
+
         <hr>
+
         <nav class="menubar">
           {% assign current = page.url | downcase | split: '/' %}
           <ul>
