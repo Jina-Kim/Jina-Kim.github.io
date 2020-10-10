@@ -78,25 +78,20 @@ p, address {
 }
 
 .btn_dataset {
-    width: 115px;
-    height: 25px;
-    line-height: 25px;
-    background-color: white;
-    color: black;
-    border: 2px solid #0F4C81;
-    border-radius: 20px;
-    padding: 10px 20px;
+    background-color: #0F4C81;
+    color: white;
+    border-radius: 10px;
+    padding: 1px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     transition-duration: 0.4s;
     cursor: pointer;
 }
 
 .btn_dataset:hover {
   background-color: #0F4C81;
-  color: white;
+  color: #F58282;
 }
 
 header > h1 {
