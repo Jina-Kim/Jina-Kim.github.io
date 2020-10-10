@@ -77,6 +77,25 @@ p, address {
     padding-right: 15px;
 }
 
+.btn_dataset {
+  background-color: white;
+  color: black;
+  border: 2px solid #0F4C81;
+  border-radius: 15px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn_dataset:hover {
+  background-color: #0F4C81;
+  color: white;
+}
+
 header > h1 {
     color: rgb(60, 60, 60);
     line-height: 100%;
