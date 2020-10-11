@@ -74,16 +74,16 @@ p, address {
 }
 
 dl {
-    text-indent: 1em;
     padding: 3px;
+    margin-left: 30px;
 }
 
 dt{
     font-weight: bold;
+    margin-left: 15px;
 }
 
 dd {
-    text-indent: 2.5em;
     padding: 2.5px;
     display: none;
 }
