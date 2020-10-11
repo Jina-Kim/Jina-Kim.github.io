@@ -75,7 +75,6 @@ p, address {
 
 dl {
     padding: 3px;
-    margin-left: 30px;
 }
 
 dt{
@@ -86,6 +85,7 @@ dt{
 dd {
     padding: 2.5px;
     display: none;
+    margin-left: 30px;
 }
 
 .btn_dataset {
