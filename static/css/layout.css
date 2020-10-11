@@ -73,6 +73,21 @@ p, address {
     padding-right: 15px;
 }
 
+dd {
+    text-indent: 2.5em;
+    padding: 2.5px;
+}
+
+dt{
+    font-weight: bold;
+}
+
+dl {
+    text-indent: 1em;
+    padding: 3px;
+    display: none;
+}
+
 .btn_dataset {
     background-color: #0F4C81;
     color: white;

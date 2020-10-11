@@ -1,4 +1,4 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133293488-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -6,4 +6,11 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-133293488-1');
+
+  $(document).ready(function(){
+    $(".detailed").click(function(){
+        $(this).parent().children("dd").toggle();
+    });
+  });
 </script>
+
