@@ -11,7 +11,9 @@
   $(document).ready(function(){
     $(".detailed").click(function(){
         $(this).parent().children("dd").toggle();
+        $(this).find('i').toggleClass('fa-chevron-circle-down fa-chevron-circle-right');
     });
   });
+
 </script>
 
