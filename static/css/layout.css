@@ -26,10 +26,6 @@ a, .paper_link {
     text-decoration: none;
 }
 
-a:link {
-    color: #0F4C81;
-}
-
 a:visited {
     text-decoration: none;
 }
