@@ -21,6 +21,12 @@ body {
     margin-top: 50px;
 }
 
+@media (min-width: 1024px)
+.fixed-condition {
+    position: fixed;
+    max-width: 255px;
+}
+
 a, .paper_link {
     color: #0F4C81;
     text-decoration: none;
