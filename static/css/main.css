@@ -9,37 +9,6 @@ body {
     margin-top: 50px;
 }
 
-.me {
-    width: 130px;
-    height: 130px;
-    border-radius: 70px;
-    -webkit-border-radius: 70px;
-    -moz-border-radius: 70px;
-    display: block;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.author_img {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    margin-bottom: 10px;
-}
-
-.project_image {
-    float: left;
-    width: 250px;
-    height: auto;
-    padding-top: 15px;
-    padding-right: 15px;
-}
-
 /* button */
 .btn_dataset {
     background-color: #0F4C81;
@@ -72,27 +41,8 @@ a:hover, a:focus, .current {
     color: #F58282;
 }
 
-header > h1 {
-    color: rgb(60, 60, 60);
-    line-height: 100%;
-    font-size: 250%;
-    margin-bottom: 20px;
-    font-weight: 900;
-}
-
-.container > header p, .container > header address {
-    margin-bottom: 20px;
-}
-
-.container > header p:last-child {
-    margin-bottom: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-section > h1 {
+/* h tags */
+h1 {
     font-size: 140%;
     line-height: 120%;
     text-transform: uppercase;
@@ -100,24 +50,23 @@ section > h1 {
     font-weight: 900;
 }
 
-section > h2 {
+#my_name {
+    color: rgb(60, 60, 60);
+    line-height: 100%;
+    font-size: 250%;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+h2 {
     font-size: 120%;
     line-height: 100%;
-    /* text-transform: uppercase; */
     color: #0F4C81;
     font-weight: 900;
 }
 
 article {
     margin-bottom: 20px;
-}
-
-article > header > h1 {
-    font-size: 112%;
-    font-weight: bold;
-    line-height: 150%;
-    margin-bottom: 0;
-    color: inherit;
 }
 
 article > header > span + span {
@@ -198,12 +147,36 @@ i {
   margin-bottom: 30px;
 }
 
-section > div > h1, section > div > div > h1 {
-    font-size: 140%;
-    line-height: 120%;
-    text-transform: uppercase;
-    color: #0F4C81;
-    font-weight: 900;
+/* images */
+.me {
+    width: 130px;
+    height: 130px;
+    border-radius: 70px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author_img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.project_image {
+    float: left;
+    width: 250px;
+    height: auto;
+    padding-top: 15px;
+    padding-right: 15px;
 }
 
 /* drag */

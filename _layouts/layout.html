@@ -10,7 +10,6 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.website_full }}static/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ site.website_full }}static/css/layout.css">
     <link rel="stylesheet" href="{{ site.website_full }}static/css/main.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -26,9 +25,9 @@
         <header class="col-lg-3">
             <div class="fixed-condition">
                 <img src="{{ site.website_full }}static/img/profile.jpg" class="me">
-                <h1 style="text-align:center;">{{ site.name }}</h1>
+                <h1 id="my_name">{{ site.name }}</h1>
 
-                <ul>
+                <ul class="list-unstyled">
                     <li><em>Contact</em></li>
                     <li><i class="fa fa-envelope fa-fw"></i>&nbsp; <a href="{{ site.email_full }}">jinakim@skku.edu</a></li>
                     <li><i class="fa fa-graduation-cap fa-fw"></i>&nbsp; <a href="{{ site.google_scholar }}">Google Scholar</a></li>
@@ -40,9 +39,7 @@
 
             {{ content }}
 
-        <footer class="thirteen columns">
-            <p>© 2019 Jina Kim. Powered by Jekyll & vitae.</p>
-        </footer>
+        <p>© 2019 Jina Kim. Powered by Jekyll & vitae.</p>
         </div>
     </div>
 </div>
