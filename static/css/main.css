@@ -110,7 +110,6 @@ em {
     font-style: normal;
     font-weight: bold;
     color: rgb(60, 60, 60);
-    /*margin-right: 6px;*/
 }
 
 i {
@@ -195,14 +194,14 @@ i {
 }
 
 /* main layout */
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .fixed-condition {
     position: fixed;
     max-width: 255px;
   }
 }
 @media (max-width: 768px) {
-  div.col-lg-3 {
+  div.col-sm-3 {
     margin-top: 30px;
   }
 }
