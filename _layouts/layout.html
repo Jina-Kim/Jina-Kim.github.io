@@ -9,8 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ site.website_full }}static/css/base.css">
-    <link rel="stylesheet" href="{{ site.website_full }}static/css/skeleton.css">
     <link rel="stylesheet" href="{{ site.website_full }}static/css/layout.css">
     <link rel="stylesheet" href="{{ site.website_full }}static/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -23,24 +21,28 @@
 </head>
 <body>
 <div class="container">
-    <header class="three columns">
-        <img src="{{ site.website_full }}static/img/profile.jpg" class="me">
-        <h1 style="text-align:center;">{{ site.name }}</h1>
+    <div class="row">
+        <header class="col-lg-3">
+            <div class="affix">
+                <img src="{{ site.website_full }}static/img/profile.jpg" class="me">
+                <h1 style="text-align:center;">{{ site.name }}</h1>
 
-        <ul>
-            <li><em>Contact</em></li>
-            <li><i class="fa fa-envelope fa-fw"></i>&nbsp; <a href="{{ site.email_full }}">jinakim@skku.edu</a></li>
-            <li><i class="fa fa-graduation-cap fa-fw"></i>&nbsp; <a href="{{ site.google_scholar }}">Google Scholar</a></li>
-            <li><i class="fa fa-github fa-fw"></i>&nbsp; <a href="{{ site.github }}">GitHub</a></li>
-        </ul>
-    </header>
-    <div class="thirteen columns clearfix">
+                <ul>
+                    <li><em>Contact</em></li>
+                    <li><i class="fa fa-envelope fa-fw"></i>&nbsp; <a href="{{ site.email_full }}">jinakim@skku.edu</a></li>
+                    <li><i class="fa fa-graduation-cap fa-fw"></i>&nbsp; <a href="{{ site.google_scholar }}">Google Scholar</a></li>
+                    <li><i class="fa fa-github fa-fw"></i>&nbsp; <a href="{{ site.github }}">GitHub</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="col-lg-9 col-lg-offset-3">
 
-        {{ content }}
+            {{ content }}
 
-    <footer class="thirteen columns">
-        <p>© 2019 Jina Kim. Powered by Jekyll & vitae.</p>
-    </footer>
+        <footer class="thirteen columns">
+            <p>© 2019 Jina Kim. Powered by Jekyll & vitae.</p>
+        </footer>
+        </div>
     </div>
 </div>
 
