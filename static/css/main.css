@@ -48,6 +48,7 @@ h1 {
     text-transform: uppercase;
     color: #0F4C81;
     font-weight: 900;
+    margin-top: 0px;
 }
 
 #my_name {
@@ -56,6 +57,7 @@ h1 {
     font-size: 250%;
     margin-bottom: 20px;
     font-weight: 900;
+    text-transform: none;
 }
 
 h2 {
@@ -63,6 +65,10 @@ h2 {
     line-height: 100%;
     color: #0F4C81;
     font-weight: 900;
+}
+
+.content{
+    margin-bottom: 40px;
 }
 
 article {
@@ -173,9 +179,8 @@ i {
 
 .project_image {
     float: left;
-    width: 250px;
+    width: 200px;
     height: auto;
-    padding-top: 15px;
     padding-right: 15px;
 }
 
@@ -202,7 +207,7 @@ i {
   }
 }
 
-footer p {
+footer {
     margin-bottom: 10px;
     font-size: 10pt;
 }
