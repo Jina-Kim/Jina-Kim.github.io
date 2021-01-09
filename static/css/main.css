@@ -106,6 +106,10 @@ article > header address + time::before {
     margin-right: 6px;
 }
 
+li{
+    margin-bottom: 5px;
+}
+
 em {
     font-style: normal;
     font-weight: bold;
@@ -154,11 +158,11 @@ i {
 
 /* images */
 .me {
-    width: 130px;
-    height: 130px;
-    border-radius: 70px;
-    -webkit-border-radius: 70px;
-    -moz-border-radius: 70px;
+    width: 160px;
+    height: 160px;
+    border-radius: 75px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
     display: block;
     margin-bottom: 20px;
     margin-left: auto;
@@ -194,7 +198,7 @@ i {
 }
 
 /* main layout */
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .fixed-condition {
     position: fixed;
     max-width: 255px;
