@@ -129,6 +129,10 @@ i {
     text-transform: none;
 }
 
+.panel-body {
+    padding: 15px 10px 5px 10px;
+}
+
 .bibtex{
   display: block;
   padding: 9.5px;
