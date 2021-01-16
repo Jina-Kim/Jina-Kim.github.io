@@ -20,30 +20,29 @@
     <link rel="shortcut icon" href="{{ site.website_full }}static/img/favicon.ico">
 </head>
 <body>
-<div class="container">
-    <div class="row">
-        <header class="col-sm-3">
-            <div class="fixed-condition">
-                <img src="{{ site.website_full }}static/img/profile.jpg" class="me">
-                <h1 id="my_name">{{ site.name }}</h1>
+    <div class="container">
+        <div class="row">
+            <header class="col-sm-3">
+                <div class="fixed-condition">
+                    <img src="{{ site.website_full }}static/img/profile.jpg" class="me">
+                    <h1 id="my_name">{{ site.name }}</h1>
 
-                <ul class="list-unstyled">
-                    <li><em>Contact</em></li>
-                    <li><i class="fa fa-envelope fa-fw"></i>&nbsp; <a href="{{ site.email_full }}">jinakim@skku.edu</a></li>
-                    <li><i class="fa fa-graduation-cap fa-fw"></i>&nbsp; <a href="{{ site.google_scholar }}">Google Scholar</a></li>
-                    <li><i class="fa fa-github fa-fw"></i>&nbsp; <a href="{{ site.github }}">GitHub</a></li>
-                </ul>
+                    <ul class="list-unstyled">
+                        <li><em>Contact</em></li>
+                        <li><i class="fa fa-envelope fa-fw"></i>&nbsp; <a href="{{ site.email_full }}">jinakim@skku.edu</a></li>
+                        <li><i class="fa fa-graduation-cap fa-fw"></i>&nbsp; <a href="{{ site.google_scholar }}">Google Scholar</a></li>
+                        <li><i class="fa fa-github fa-fw"></i>&nbsp; <a href="{{ site.github }}">GitHub</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div class="col-sm-9 col-sm-offset-3">
+
+                {{ content }}
+
+            <footer>© 2019 Jina Kim. Powered by Jekyll.</footer>
             </div>
-        </header>
-        <div class="col-sm-9 col-sm-offset-3">
-
-            {{ content }}
-
-        <footer>© 2019 Jina Kim. Powered by Jekyll.</footer>
         </div>
     </div>
-</div>
-
   {% if jekyll.environment == 'production' %}
   {% include analytics.html %}
   {% endif %}
