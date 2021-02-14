@@ -3,7 +3,7 @@
 
     <article>
       <div class="project">
-        <img src="{{ site.baseurl }}assets/images/project1.png" class="project_image">
+        <img src="{{ site.baseurl }}assets/images/project1.png" class="project_image" data-toggle="modal" data-target="#imgModal">
         Drone Live Video Streaming Solution using Raspberry PI <br>
           HIFLY Team Project &nbsp; <a class="btn_dataset" href="https://youtu.be/55R1oghmro4">Video</a>
         <p>
@@ -11,6 +11,20 @@
           Also, we constructed the streaming server on Raspberry Pi 3 board for high mobility.
           The video stream can be played on any devices if the HTML5 standard web browser is utilized.
         </p>
+      </div>
+    <!--Modal-->
+      <div class="modal fade in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: block; padding-right: 17px;">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Drone Live Video Streaming Solution using Raspberry PI</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/images/project1.png" class="project_image_modal">
+                </div>
+            </div>
+        </div>
       </div>
     </article>
 </div>

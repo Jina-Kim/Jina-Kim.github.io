@@ -193,6 +193,11 @@ i {
     padding-right: 15px;
 }
 
+.project_image_modal {
+    width: 100%;
+    height: auto;
+}
+
 /* drag */
 ::-moz-selection {
    background: #8fc2f0;
