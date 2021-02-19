@@ -16,19 +16,12 @@ author: Jina Kim
 baseurl: /
 title: Jina Kim
 name: Jina Kim
-email: jinakim@skku.edu
-email_full: mailto:jinakim@skku.edu
+email: jinakim@g.skku.edu
+email_full: mailto:jinakim@g.skku.edu
 website: github.io
 website_full: https://jina-kim.github.io/
 github: https://github.com/Jina-Kim/
 google_scholar: https://scholar.google.com/citations?user=3mpOz-MAAAAJ&hl=en&oi=sra/
 twitter: twitter
-tel: +44 0000 000000
-tel_full: tel:+440000000000
-address:
-  street:
-  postcode:
-  city:
-  country:
 # needed for travis-ci build
 exclude: [vendor]
