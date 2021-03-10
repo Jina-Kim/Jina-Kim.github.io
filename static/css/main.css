@@ -91,10 +91,6 @@ article > header > span {
     font-size: 100%;
 }
 
-article > header > span a {
-    color: inherit;
-}
-
 article > header address {
     display: inline;
 }
