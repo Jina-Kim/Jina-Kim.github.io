@@ -62,7 +62,7 @@ h1 {
 }
 
 #my_link{
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
 }
 
@@ -210,14 +210,14 @@ i {
 }
 
 /* main layout */
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   .fixed-condition {
     position: fixed;
     max-width: 255px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   div.col-sm-9 {
     margin-top: 50px;
   }
