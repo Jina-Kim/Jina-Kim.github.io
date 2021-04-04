@@ -22,22 +22,15 @@
                     <img src="{{ site.website_full }}static/img/profile.jpg" class="me">
                     <h1 id="my_name">{{ site.name }}</h1>
 
+                    <h2><a href="{{ site.email_full }}"><i class="fa fa-envelope fa-fw"></i></a> &nbsp; <a href="{{ site.google_scholar }}"> <i class="fa fa-graduation-cap fa-fw"></i></a> &nbsp; <a href="{{ site.github }}"><i class="fa fa-github fa-fw"></i></a> &nbsp; <a href="{{ site.linkedin }}"><i class="fa fa-linkedin-square fa-fw"></i></a></h2>
+                    
                     <nav class="menubar">
                       {% assign current = page.url | downcase | split: '/' %}
-                      <ul>
+                      <ul class="list-unstyled">
                         <li><em><a href='/' {% if current[1] == null %}class='current'{% endif %}>Home</a></em></li>
                         <li><em><a href='/publications' {% if current[1] == 'publications' %}class='current'{% endif %}>Publications</a></em></li>
-                        <li><em><a href='/Jina_Kim_CV.pdf'>CV</a></em></li>
                       </ul>
                     </nav>
-
-                    <ul class="list-unstyled">
-                        <li><em>Contact</em></li>
-                        <li><i class="fa fa-envelope fa-fw"></i>&nbsp; <a href="{{ site.email_full }}">{{ site.email }}</a></li>
-                        <li><i class="fa fa-graduation-cap fa-fw"></i>&nbsp; <a href="{{ site.google_scholar }}">Google Scholar</a></li>
-                        <li><i class="fa fa-github fa-fw"></i>&nbsp; <a href="{{ site.github }}">GitHub</a></li>
-                        <li><i class="fa fa-linkedin-square fa-fw"></i>&nbsp; <a href="{{ site.linkedin }}">LinkedIn</a></li>
-                    </ul>
                 </div>
             </header>
             <div class="col-sm-9 col-sm-offset-3">
