@@ -217,7 +217,7 @@ i {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   div.col-sm-9 {
     margin-top: 50px;
   }
