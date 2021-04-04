@@ -59,14 +59,20 @@ h1 {
     text-align: center;
 }
 
-.current{
+.menubar li{
+    color: #0F4C81;
+    text-align: center;
+    display: block;
+}
+
+#current{
     color: #F58282;
     background-color: #0F4C81;
     border-radius: 5px;
     padding: 1px 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
     transition-duration: 0.4s;
 }
 
