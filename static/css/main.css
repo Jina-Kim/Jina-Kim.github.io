@@ -11,14 +11,7 @@ body {
 
 /* button */
 .btn_dataset {
-    background-color: #0F4C81;
-    color: white;
-    border-radius: 5px;
-    padding: 1px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    transition-duration: 0.4s;
+    color: #F58282;
     cursor: pointer;
 }
 
@@ -69,6 +62,12 @@ h1 {
 .current{
     color: #F58282;
     background-color: #0F4C81;
+    border-radius: 5px;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
 }
 
 h2 {
