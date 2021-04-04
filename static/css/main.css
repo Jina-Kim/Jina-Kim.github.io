@@ -37,7 +37,7 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover, a:focus, .current {
+a:hover, a:focus {
     color: #F58282;
 }
 
@@ -64,6 +64,11 @@ h1 {
 #my_link{
     font-size: 150%;
     text-align: center;
+}
+
+.current{
+    color: #F58282;
+    background-color: #0F4C81;
 }
 
 h2 {
