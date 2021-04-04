@@ -60,6 +60,7 @@ h1 {
 }
 
 .menubar li{
+    font-size: 120%;
     color: #0F4C81;
     text-align: center;
     display: block;
