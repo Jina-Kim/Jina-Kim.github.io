@@ -22,6 +22,15 @@
                     <img src="{{ site.website_full }}static/img/profile.jpg" class="me">
                     <h1 id="my_name">{{ site.name }}</h1>
 
+                    <nav class="menubar">
+                      {% assign current = page.url | downcase | split: '/' %}
+                      <ul>
+                        <li><em><a href='/' {% if current[1] == null %}class='current'{% endif %}>Home</a></em></li>
+                        <li><em><a href='/publications' {% if current[1] == 'publications' %}class='current'{% endif %}>Publications</a></em></li>
+                        <li><em><a href='/Jina_Kim_CV.pdf'>CV</a></em></li>
+                      </ul>
+                    </nav>
+
                     <ul class="list-unstyled">
                         <li><em>Contact</em></li>
                         <li><i class="fa fa-envelope fa-fw"></i>&nbsp; <a href="{{ site.email_full }}">{{ site.email }}</a></li>
