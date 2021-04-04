@@ -61,6 +61,11 @@ h1 {
     text-align: center;
 }
 
+#my_link{
+    font-size: 200%;
+    text-align: center;
+}
+
 h2 {
     font-size: 110%;
     line-height: 100%;
