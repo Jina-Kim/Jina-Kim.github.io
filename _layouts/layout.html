@@ -27,6 +27,7 @@
                     {% assign current = page.url | downcase | split: '/' %}
                      <ul class="list-unstyled menubar">
                          <li><a href='/' {% if current[1] == null %}id='current'{% endif %}>Home</a></li>
+                         <li><a href='#publications'>Publications</a></li>
                          <li><a href='/publications' {% if current[1] == 'publications' %}id='current'{% endif %}>Publications</a></li>
                      </ul>
                     <hr>
