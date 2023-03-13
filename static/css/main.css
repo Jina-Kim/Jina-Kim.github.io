@@ -54,14 +54,14 @@ h1 {
     text-align: center;
 }
 
-.menubar li{
+.menubar li {
     font-size: 120%;
     color: #0F4C81;
     text-align: center;
     display: block;
 }
 
-#current{
+#current {
     color: #F58282;
     background-color: #0F4C81;
     border-radius: 5px;
@@ -80,7 +80,11 @@ h2 {
     margin-top: 0px;
 }
 
-.content{
+p {
+    text-align: justify;
+}
+
+.content {
     margin-bottom: 40px;
 }
 
@@ -140,7 +144,7 @@ i {
     padding: 15px 10px 5px 10px;
 }
 
-.bibtex{
+.bibtex {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
@@ -153,18 +157,18 @@ i {
   border-radius: 4px;
 }
 
-.author{
+.author {
   width: 180px;
   display: inline-block;
 }
 
-.authors{
+.authors {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.affiliations{
+.affiliations {
   text-align: center;
   margin-bottom: 30px;
 }
