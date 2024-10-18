@@ -1,1 +1,1 @@
-This was forked from the [Vitae](https://github.com/jekyller/vitae) Jekyll Theme, released under the MIT License. See LICENSE.
+This theme is an updated version by Jina Kim, based on the [Vitae](https://github.com/jekyller/vitae) Jekyll Theme, which is released under the MIT License. You are free to use this updated theme, but please include this GitHub repo link [https://github.com/Jina-Kim/Jina-Kim.github.io/](https://github.com/Jina-Kim/Jina-Kim.github.io/) in the footer to credit the modifications.
