@@ -1,0 +1,32 @@
+---
+layout: projects
+---
+
+
+<h1>InternVL Playground</h1>
+
+<textarea id="prompt" placeholder="Enter your prompt..."></textarea>
+<br><br>
+<input type="file" id="image" accept="image/*">
+<br><br>
+<button onclick="run()">Run InternVL</button>
+<pre id="output"></pre>
+
+<script>
+async function run() {
+    const prompt = document.getElementById("prompt").value;
+    const image = document.getElementById("image").files[0];
+
+    const formData = new FormData();
+    formData.append("prompt", prompt);
+    if(image) formData.append("image", image);
+
+    const res = await fetch("https://your-tunnel.trycloudflare.com/api/internvl", {
+    method: "POST",
+    body: formData
+    });
+
+    const data = await res.json();
+    document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+}
+</script>
