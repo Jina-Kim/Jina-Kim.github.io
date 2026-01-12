@@ -24,7 +24,6 @@ website: github.io
 website_full: https://jina-kim.github.io/
 github: https://github.com/Jina-Kim/
 linkedin: https://www.linkedin.com/in/jina-kim-5796a6134
-twitter: https://twitter.com/jina_kimmm/
 google_scholar: https://scholar.google.co.kr/citations?user=kS2XsAsAAAAJ
 # needed for travis-ci build
 exclude: [vendor]
